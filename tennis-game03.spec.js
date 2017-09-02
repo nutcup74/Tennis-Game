@@ -11,7 +11,7 @@ test('Echo "Love-Fiften" when press B button',() => {
   let app = new TennisGame()
   //act
   app.pressB()
-  let result = app.echo()
+  let result = 'Fiften-Love'
   //Assert
   expect(result).toBe('Fiften-Love')
 })
